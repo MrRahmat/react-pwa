@@ -27,3 +27,6 @@ jobs:
       #   run: npm test
       - name: Build app
         run: npm run build
+
+      - name: Deploy on GitHub pages
+        run: npm run deploy
