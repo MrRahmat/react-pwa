@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-pwa/static/css/main.d2269b89.css",
+    "main.js": "/react-pwa/static/js/main.02dd2803.js",
+    "index.html": "/react-pwa/index.html",
+    "main.d2269b89.css.map": "/react-pwa/static/css/main.d2269b89.css.map",
+    "main.02dd2803.js.map": "/react-pwa/static/js/main.02dd2803.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2269b89.css",
+    "static/js/main.02dd2803.js"
+  ]
+}
