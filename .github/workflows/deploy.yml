@@ -27,6 +27,8 @@ jobs:
       #   run: npm test
       - name: Build app
         run: npm run build
+        env:
+          REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
 
       - name: Deploy on GitHub pages
         run: |
