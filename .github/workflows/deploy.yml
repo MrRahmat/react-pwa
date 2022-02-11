@@ -2,13 +2,13 @@ name: Lab4
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   # pull_request:
   #   branches: [ master ]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     strategy:
       matrix:
         node-version: [16.x, 17.x]
