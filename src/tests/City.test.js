@@ -3,7 +3,7 @@
 import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
-import City from "./City.jsx";
+import { City } from "../components";
 
 let container = null;
 beforeEach(() => {
