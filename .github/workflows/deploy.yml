@@ -23,8 +23,8 @@ jobs:
           cache: 'npm'
       - name: Install modules
         run: npm i
-      # - name: Running tests
-      #   run: npm test
+      - name: Running tests
+        run: npm test
       - name: Build app
         run: npm run build
         env:
