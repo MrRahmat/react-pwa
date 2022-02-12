@@ -1,7 +1,6 @@
 import React from 'react';
 
 const City = ({ data }) => {
-    console.log(data)
   return (
     <div className='city'>
         <h2 className='city-name'>

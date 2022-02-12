@@ -25,6 +25,8 @@ jobs:
         run: npm i
       - name: Running tests
         run: npm test
+        env:
+          REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
       - name: Build app
         run: npm run build
         env:
