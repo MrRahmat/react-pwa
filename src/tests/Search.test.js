@@ -20,6 +20,4 @@ it("Test key press event", async () => {
     });
     expect(pressFn).toHaveBeenCalledTimes(1);
     expect(inp.value).toBe('Innopolis');
-    
-
 });
