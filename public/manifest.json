@@ -1,0 +1,15 @@
+{
+    "short_name": "Weather React App",
+    "name": "Weather React Progressive Web Application",
+    "icons": [
+        {
+            "src": "/images/logo.png",
+            "type": "image/png",
+            "size": "400x400"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
